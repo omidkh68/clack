@@ -1,0 +1,2 @@
+ - Add support for key chords
+ - Validate keys of length > 1 against `codes`

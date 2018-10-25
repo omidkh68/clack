@@ -1,9 +1,12 @@
 {
   "name": "@reasonink/clack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A keyboard shortcut library for Typescript & Javascript.",
   "main": "dist/index.js",
   "repository": "https://github.com/reasonink/clack",
   "author": "Oliver Heard <oliver@reason.ink>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+      "prepublishOnly": "tsc"
+  }
 }

@@ -9,6 +9,7 @@
     "strict": true,
     "esModuleInterop": false,
     "sourceMap": true,
+    "declaration": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "jsx": "react"

@@ -17,10 +17,10 @@ export class Shortcut {
             this.windowListener = (event: KeyboardEvent) => {
                 if (eventMatches(this, event)) this.handler(event);
             };
-            window.addEventListener("keypress", this.windowListener);
+            window.addEventListener("keydown", this.windowListener);
         }
         else if (this.windowListener) {
-            window.removeEventListener("keypress", this.windowListener);
+            window.removeEventListener("keydown", this.windowListener);
             this.windowListener = null;
         }
     }

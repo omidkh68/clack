@@ -1,6 +1,6 @@
 {
   "name": "@reasonink/clack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A keyboard shortcut library for Typescript & Javascript.",
   "main": "dist/index.js",
   "repository": "https://github.com/reasonink/clack",

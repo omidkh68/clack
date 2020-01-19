@@ -1,6 +1,8 @@
 import { Shortcut } from "./shortcut";
 import { Group } from "./group";
+
 export { ShortcutDefinition, ShortcutOptions, Shortcut } from "./shortcut";
+export { Group } from "./group";
 
 export function shortcut(combo: string, handle: (event: KeyboardEvent) => void): Shortcut {
     return Shortcut.fromComboText(combo, handle);
